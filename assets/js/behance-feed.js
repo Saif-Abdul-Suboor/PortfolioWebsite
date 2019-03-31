@@ -1,6 +1,6 @@
 var apiKey = "LFq0N7JpXkZoaIf7CB9WBL9R8zOI6jhL"; // Your API Key/Client ID.
 // If you don't have one, go get it here: https://www.behance.net/dev/register
-var user = "saif_suboo5d73"; // This is your behance username
+var user = "saif-suboo5d73"; // This is your behance username
 
 $(function() {
   $.ajax({
@@ -12,7 +12,7 @@ $(function() {
     dataType: "jsonp",
     success: function(results) {
       var projectsArray = new Array();
-      for (var i = 0; i < 1; i++) {
+      for (var i = 0; i < 21; i++) {
         var project = results.projects[i];
 
         var output;
